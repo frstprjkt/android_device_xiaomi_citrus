@@ -221,11 +221,6 @@
         Z
     </string>
 
-    <!-- Whether the display cutout region of the main built-in display should be forced to
-        black in software (to avoid aliasing or emulate a cutout that is not physically existent).
-    -->
-    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
-    
     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
          Note: this value is temporary and is expected to be queried directly
          from the HAL in the future. -->
