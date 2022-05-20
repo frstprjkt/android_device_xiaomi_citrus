@@ -30,6 +30,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(DEVICE_PATH)-kernel/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 
 KERNEL_DEFCONFIG := vendor/bengal-perf_defconfig
+KERNEL_LLVM_SUPPORT := true
 
 # Screen density
 TARGET_SCREEN_DENSITY := 440
