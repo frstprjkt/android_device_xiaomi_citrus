@@ -29,6 +29,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_citrus
 BOARD_MKBOOTIMG_ARGS += --dtb $(DEVICE_PATH)-kernel/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 
+KERNEL_DEFCONFIG := vendor/bengal-perf_defconfig
+
 # Screen density
 TARGET_SCREEN_DENSITY := 440
 
