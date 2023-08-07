@@ -39,6 +39,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+# Display
+PRODUCT_ODM_PROPERTIES += \
+    vendor.display.disable_layer_stitch=1 \
+    vendor.display.enable_rounded_corner=0
+
 # Fingerprint
 PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.fp.sideCap=true
