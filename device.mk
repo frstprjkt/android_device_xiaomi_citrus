@@ -51,6 +51,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
+# Media
+PRODUCT_ODM_PROPERTIES += \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPACitrusFrameworksOverlay \
